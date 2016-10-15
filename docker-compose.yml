@@ -1,0 +1,6 @@
+app:
+  build: .
+  volumes:
+    - ./data:/murmur/data
+  ports:
+    - "64738:64738"
