@@ -4,3 +4,4 @@ app:
     - ./data:/murmur/data
   ports:
     - "64738:64738"
+    - "64738:64738/udp"

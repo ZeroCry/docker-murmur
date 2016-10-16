@@ -11,6 +11,6 @@ WORKDIR /murmur/data
 
 VOLUME /murmur/data
 
-EXPOSE 64738
+EXPOSE 64738 64738/udp
 
 CMD ["murmurd", "-fg"]
